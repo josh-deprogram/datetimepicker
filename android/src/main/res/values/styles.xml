@@ -1,34 +1,50 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="SpinnerDatePickerDialog" parent="Theme.AppCompat.Light.Dialog" tools:targetApi="lollipop">
         <item name="android:datePickerStyle">@style/SpinnerDatePickerStyle</item>
+        <item name="colorAccent">#00957D</item>
     </style>
 
     <style name="SpinnerDatePickerStyle" parent="android:Widget.Material.Light.DatePicker" tools:targetApi="lollipop">
         <item name="android:datePickerMode">spinner</item>
+        <item name="colorAccent">#00957D</item>
     </style>
 
     <style name="CalendarDatePickerDialog" parent="Theme.AppCompat.Light.Dialog" tools:targetApi="lollipop">
         <item name="android:datePickerStyle">@style/CalendarDatePickerStyle</item>
+        <item name="colorAccent">#00957D</item>
     </style>
 
     <style name="CalendarDatePickerStyle" parent="android:Widget.Material.Light.DatePicker" tools:targetApi="lollipop">
         <item name="android:datePickerMode">calendar</item>
+        <item name="colorAccent">#00957D</item>
     </style>
 
 
     <style name="ClockTimePickerDialog" parent="Theme.AppCompat.Light.Dialog" tools:targetApi="lollipop">
         <item name="android:timePickerStyle">@style/ClockTimePickerStyle</item>
+        <item name="colorAccent">#00957D</item>
     </style>
 
     <style name="ClockTimePickerStyle" parent="android:Widget.Material.Light.TimePicker" tools:targetApi="lollipop">
         <item name="android:timePickerMode">clock</item>
+        <item name="colorAccent">#00957D</item>
     </style>
 
     <style name="SpinnerTimePickerDialog" parent="Theme.AppCompat.Light.Dialog" tools:targetApi="lollipop">
         <item name="android:timePickerStyle">@style/SpinnerTimePickerStyle</item>
+        <item name="colorAccent">#00957D</item>
     </style>
 
     <style name="SpinnerTimePickerStyle" parent="android:Widget.Material.Light.TimePicker" tools:targetApi="lollipop">
         <item name="android:timePickerMode">spinner</item>
+        <item name="colorAccent">#00957D</item>
+    </style>
+
+    <!-- Configuration for Dialog.theme. -->
+    <style name="Dialog.Theme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- BackgroundColor of the date modal -->
+        <item name="colorAccent">#00957D</item>
+        <!-- Change textColor of the date modal -->
+        <item name="android:textColorPrimary">#000000</item>
     </style>
 </resources>

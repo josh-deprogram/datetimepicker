@@ -149,15 +149,7 @@ RCT_CUSTOM_VIEW_PROPERTY(textColor, UIColor, RNDateTimePicker)
 
 RCT_CUSTOM_VIEW_PROPERTY(accentColor, UIColor, RNDateTimePicker)
 {
-    if (json) {
-        [view setTintColor:[RCTConvert UIColor:json]];
-    } else {
-        if (@available(iOS 15.0, *)) {
-            [view setTintColor:[UIColor tintColor]];
-        } else {
-            [view setTintColor:[UIColor systemBlueColor]];
-        }
-    }
+    [view setTintColor:[UIColor colorWithRed: 0.00 green: 0.58 blue: 0.49 alpha: 1.00]];
 }
 
 // TODO vonovak setting preferredDatePickerStyle invalidates minuteinterval
